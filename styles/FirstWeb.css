@@ -5,7 +5,7 @@
 
 a{
     text-decoration: none;
-    color: red;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -15,14 +15,14 @@ h1, h2, h3 {
 
 #container {
     background-color: white;
-    width: 1080px;
+    width: 1500px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #header {
-    background-color: blue;
-    color: white;
+    background-color: rgb(85, 85, 241);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
@@ -32,6 +32,7 @@ h1, h2, h3 {
 }
 
 #nav {
+    background-color: rgb(73, 211, 73);
     width: 200px;
     float: left;
 }
