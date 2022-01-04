@@ -49,7 +49,9 @@ h1, h2, h3 {
 }
 
 #main {
-    width: 600px;
+    position: relative;
+    width: 80%;
+    left: 2%;
     float: left;
     padding-left: 10px;
 }
@@ -60,4 +62,14 @@ h1, h2, h3 {
     background-color: rgb(156, 231, 231);
     color: white;
     text-align: right;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    
+}
+
+.textclass{
+    text-align: center;
 }
