@@ -40,12 +40,13 @@ h1, h2, h3 {
 }
 
 #nav ul {
-    list-style-type: none;
     padding: 0;
 }
 
 #nav .selected {
     font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 20px;
 }
 
 #main {
