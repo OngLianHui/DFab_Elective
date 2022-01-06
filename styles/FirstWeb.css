@@ -79,3 +79,17 @@ h1, h2, h3 {
     margin-right: auto;
 
 }
+
+.column {
+    display: block;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
