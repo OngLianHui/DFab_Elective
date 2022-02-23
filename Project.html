@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+        <head>
+            <title> Project </title>
+            <link rel="stylesheet" type="text/css" href="styles/FirstWeb.css" />
+        </head>
+
+        <body>
+            <div id="container">
+              <div id="header">
+                  <h1> Project </h1>
+               </div>
+              <div id="content">
+                  <div id="nav">
+                      <u1>
+                        <p><a class="selected" href="index.html">Home</a>
+                        <p><a class="selected" href="AboutMe.html">About</a>
+                        <p><a class="selected" href="Contact.html">Contact</a>
+                        <p><a class="selected" href="WeeklyBlog.html">Weekly Blog</a>
+                        <p><a class="selected" href="Project.html">Project</a>
+                      </u1>
+                  </div>
+
+                <div id="main">
+                    <h2>Vending Machine Project</h2>
+                        <p> The aim of this project was to make a simple Vending Machine capable of dispensing items </p>
+                        <img src="Images/VendingMachine.jpg" alt="Not Loading" class="center" style="width: 50%">
+
+
+                        <b><p> Goal: </p></b>
+                    <ul>
+                        <li><p> LCD able to update texts upon each state</p></li>
+                        <li><p> Sensor to detect if token is inserted</p></li>
+                        <li><p> Button to select item</p></li>
+                        <li><p> Motor to be able to activate and stop when button pressed</p></li>
+                        <li><p> Create 3D Models for 3D Printing and laser cutting</p></li>
+                    </ul>
+
+                    <h2> Code </h2>
+                        <p> Connecting the components to the stated pins for each component.</p>
+                        <img src="Images/Wiring.jpg" alt="Not Loading" class="center" style="width: 50%">
+                        
+                        <p> Coding the vending machine, some libraries were needed such as LiquidCrystal_I2C, Servo and Wire </p>
+                        <img src="Images/CodeTop (2).PNG" alt="Not Loading" class="center" style="width: 50%">
+                        <p> The Switch and IRSensor needed to have a pin number attached to it.</p>
+                        <p> The LCD needs to be initalised and the backlight enabled in order to see the text on the LCD properly. As well as setting a cursor 
+                            in order to set where the text starts writing.
+                        </p>
+                        <img src="Images/CodeTop (3).PNG" alt="Not Loading" class="center" style="width: 50%">
+                        <p> Writing Servo to 90 will make the motor stay in its stationary position. This is to prevent the motor from turning
+                            when there is power supplied into the board</p>
+                        <img src="Images/CodeBottom (2).PNG" alt="Not Loading" class="center" style="width: 50%">
+                        <p> When the Sensor detects that a token has been inserted, the LCD will update and the machine will wait for input from Switch1 or Switch2</p>
+                        <p> The delay between each line is to stop the code from running too fast in order to give time for the physical components to work.</p>
+                        <img src="Images/CodeBottom (3).PNG" alt="Not Loading" class="center" style="width: 50%">
+                    <p></p>
+                    <h2> 3D Modeling </h2>
+                    <b><p> Vending Machine Box</p></b>
+                    <p>The vending machine has 2 compartments, a slot for the motor, LCD, button and a mini container to hold the tokens in after inserting token</p>
+                    <img src="Images/VendingMachine.jpg" alt="Not Loading" class="center" style="width: 50%">
+
+                    <p> During the laser cutting process, the pieces cut were sometimes too small or the laser cutter did not cut all the way through. This was fixed through 
+                        filing the wood.
+                    </p>
+                    <p>The laser cut was the assembled with the components.</p>
+                    <img src="Images/VendingMachineReal.jpg" alt="Not Loading" class="center" style="width: 50%">
+
+                    <b><p>Coin/Token</p></b>
+                    <p>The coin/token was a simple circular shaped </p>
+                    <img src="Images/Coin.PNG" alt="Not Loading" class="center" style="width: 50%">
+                    <p> When printing the coin, the base was not printed properly even with supports in place. Resulting in only the top of the coin to look proper.
+                        The fix for this was to make the bottom flat while the top had the design.
+                    </p>
+                    <img src="Images/CoinReal.jpg" alt="Not Loading" class="center" style="width: 25%">
+
+
+
+                        
